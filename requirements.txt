@@ -1,0 +1,9 @@
+langchain
+langchain-anthropic
+langchain-community
+langchain-core
+langgraph
+langchain-mcp-adapters
+gradio
+python-dotenv
+chromadb
