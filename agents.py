@@ -147,7 +147,8 @@ Task Instructions:
 Output ONLY the final, updated Research Notes.
 Final Instruction: Update the Master Research Notes now. Output ONLY the updated notes."""
 ),
-MessagesPlaceholder(variable_name = "messages")])
+MessagesPlaceholder(variable_name = "messages"),
+("human", "Based on the messages above, update the Master Research Notes for {client} and {ticker} now.")])
 
 
 analyzer_prompt = ChatPromptTemplate.from_messages([(

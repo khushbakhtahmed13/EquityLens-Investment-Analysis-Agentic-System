@@ -84,7 +84,8 @@ async def build_graph():
             {
                 "research_notes": state["research_notes"],
                 "messages": last_messages,
-                "client": state["client"]
+                "client": state["client"],
+                "ticker": state["ticker"]
             }
         ).content
 
